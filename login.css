@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+*, *::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+.container, .full-width, .head-content, .logo-detail, .signup-content, .btn-google, .footer-container {
+    display: flex;
+}
+
+.side-content, .form-content, .left-foot-content, .right-foot-content {
+   flex: 1; 
+}
+
+.side-content img {
+    height: 100%;
+    width: 100%;
+}
+
+/* .form-content {
+    flex-direction: column;
+    justify-content: space-around;
+} */
+
+.head-content {
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.logo-detail {
+    align-items: center;
+}
+
+.logo-detail h2 {
+    font-size: 20px;
+    font-style: 1000px;
+    padding-left: 10px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.right-head-content {
+    background-color: #91C483;
+    padding: 13px 50px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 20px rgba(51, 255, 129, 0.4);
+}
+
+.right-head-content h3 {
+    user-select: none;
+    color: black;
+}
+
+.right-head-content:active {
+    background-color: #6bc253;
+    position: relative;
+    top: 2px;
+}
+
+
+.signup-content {
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-content h1 {
+    margin: 20px 0px;
+    font-size: 35px;
+    color: black;
+}
+
+form {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+.full-width {
+    margin: 20px 0px;
+    width: 100%;
+  }
+
+.input-div {
+    width: 70%;
+    margin: 10px;
+  }
+
+
+.signup-content a {
+    font-size: 20px;
+    text-decoration-line: underline;
+    color: black;
+    font-weight: 700;
+}
+
+label {
+    color: #4F5665;
+    font-weight: 700;
+}
+
+input {
+    display: block;
+    height: 60px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid #4F5665 ;
+  }
+  
+.btn-signup {
+    margin-top: 30px;
+    background-color: #91C483;
+    padding: 20px 50px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 20px rgba(51, 255, 129, 0.4);
+    width: 70%;
+}
+
+.btn-signup:active {
+    background-color: #6bc253;
+    position: relative;
+    top: 2px;
+}
+
+.btn-signup h2 {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    user-select: none;
+}
+
+.btn-google {
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px 50px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 20px rgba(196, 196, 196, 0.67);
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-google p {
+    margin-left: 15px;
+    font-weight: 1000;
+    user-select: none;
+}
+
+.btn-google:active {
+    background-color: #91C483;
+    position: relative;
+    top: 2px;
+}
+
+.get-member {
+    position: relative;
+    display: flex;
+    width: 70%;
+    background-color: white;
+    box-shadow: 0px 6px 20px rgba(196, 196, 196, 0.67);
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    left: 220px;
+    bottom: 150px;
+}
+
+.info-member {
+    padding: 40px;
+}
+
+.info-member h2 {
+    width: 75%;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.info-member p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #4F5665;
+}
+
+.btn-create {
+    margin-right: 40px;
+    background-color: #91C483;
+    padding: 20px 50px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 20px rgba(51, 255, 129, 0.4);
+    width: 250px;
+}
+
+.btn-create:active {
+    background-color: #6bc253;
+    position: relative;
+    top: 2px;
+}
+
+.btn-create h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    user-select: none;
+}
+
+.footer-container {
+    justify-content: space-between;
+}
+
+.left-foot-content {
+    margin: 70px;
+}
+
+.about-detail {
+    margin-top: 20px;
+    width: 60%;
+}
+
+.about-detail p {
+    font-size: 16px;
+    color: #4F5665;
+}
+
+.sosmed-detail {
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.back-logo {
+    background-color: black;
+    padding: 15px;
+    position: relative;
+    left: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.img-logo {
+    position: absolute;
+    bottom: -1px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+
+.copyright {
+    font-size: 16px;
+    color: #AFB5C0;
+    margin-top: 40px;
+}
+
+.right-foot-content {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-detail h2 {
+    font-size: 18px;
+    color: #0B132A;
+    font-weight: 500;
+}
+
+.content-detail ol li{
+    font-size: 16px;
+    margin-top: 20px;
+    list-style: none;
+    color: #4F5665;
+}
+
+.content-detail ol li:hover{
+    color: #91C483;
+    cursor: pointer;
+    transition: 0.5s;
+}
