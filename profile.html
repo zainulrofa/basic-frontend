@@ -1,16 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
     <link rel="stylesheet" href="profile.css">
-    <link rel="stylesheet" href="lib/bootstrap-5.2.2-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="lib/fontawesome-free-6.2.0-web/css/all.css">
     <script src="lib/bootstrap-5.2.2-dist/js/bootstrap.bundle.js"></script>
 </head>
+
 <body>
-    
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="left-bar">
+            <div class="logo">
+                <a class="logo-img" href="#">
+                    <img src="img/sakacoffee.png" alt="logo">
+                </a>
+                <a class="logo-title" href="#">
+                    Saka Coffee Shop
+                </a>
+            </div>
+            <ol>
+                <li>Home</li>
+                <li>Prqoduct</li>
+                <li>Your Cart</li>
+                <li>History</li>
+            </ol>
+        </div>
+        <div class="right-bar">
+            <a href="#">
+                <img class="searching" src="img/Searching.png" alt="searching">
+            </a>
+            <div class="chat">
+                <div class="notif">1</div>
+                <a href="#">
+                    <img src="img/chat.png" alt="">
+                </a>
+            </div>
+            <div class="profile">
+                <img src="img/image 39.png" alt="profile">
+            </div>
+        </div>
+
+    </nav>
+    <!-- Main Content -->
+    <section class="main-content">
+        <h1>User Profile</h1>
+        <div class="top-content">
+            <div class="profile-photo">
+                <img src="img/image 39-1.png" alt="profile">
+                <img class="pencil" src="img/pencil.png" alt="edit-photo">
+                <h2>Zulaikha</h2>
+                <p>zulaikha17@gmail.com</p>
+                <h3>Has been ordered 15 products</h3>
+            </div>
+            <div class="contact">
+                <h2>Contacts</h2>
+                <div class="contact-content">
+                    <img class="edit-pencil" src="img/pencil.png" alt="edit-photo">
+                    <div class="input-contact">
+                        <div class="left-contact">
+                            <div class="input-div">
+                                <label>Email Address:</label>
+                                <input type="text" />
+                            </div>
+                            <div class="input-div">
+                                <label>Delivery Address:</label>
+                                <input type="text" />
+                            </div>
+                        </div>
+                        <div class="right-contact">
+                            <div class="input-div">
+                                <label>Mobile Number:</label>
+                                <input type="tel" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-content">
+            <div class="details">
+                <h2>Details</h2>
+                <div class="profile-detail">
+                    <img class="edit-pencil" src="img/pencil.png" alt="edit-photo">
+                    <div class="input-profile">
+                        <div class="left-profile">
+                            <div class="input-div">
+                                <label>Display name:</label>
+                                <input type="text" />
+                            </div>
+                            <div class="input-div">
+                                <label>First name:</label>
+                                <input type="text" />
+                            </div>
+                            <div class="input-div">
+                                <label>Last name:</label>
+                                <input type="text" />
+                            </div>
+                        </div>
+                        <div class="right-profile">
+                            <div class="input-div">
+                                <label>DD/MM/YY:</label>
+                                <input type="text" placeholder="DD/MM/YY" />
+                            </div>
+                            <div class="gender">
+                                <div class="male">
+                                    <input type="radio" name="choice" />
+                                    <label>Male</label>
+                                </div>
+                                <div class="female">
+                                    <input type="radio" name="choice" />
+                                    <label>Famale</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="change">
+                <p>Do you want to save the change?</p>
+                <div class="btn-change-1">
+                    <h4>Save Change</h4>
+                </div>
+                <div class="btn-change-2">
+                    <h4>Cancel</h4>
+                </div>
+                <div class="btn-change-3">
+                    <div class="btn-change-3-content">
+                        <h5>Edit Password</h5>
+                        <h5>&gt</h5>
+                    </div>
+                </div>
+                <div class="btn-change-3">
+                    <div class="btn-change-3-content">
+                        <h5>Log out</h5>
+                        <h5>&gt</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer-container">
+        <div class="left-foot-content">
+            <div class="logo-detail">
+                <img class="logo" src="img/sakacoffee.png" alt="cof">
+                <h2>Saka Coffee Shop</h2>
+            </div>
+            <div class="about-detail">
+                <p>Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality
+                    beans.</p>
+            </div>
+            <div class="sosmed-detail">
+                <div class="box">
+                    <div class="back-logo">
+                    </div>
+                    <img class="img-logo" src="/img/Facebook.png" alt="">
+                </div>
+                <div class="box">
+                    <div class="back-logo"></div>
+                    <img class="img-logo" src="/img/Twitter.png" alt="">
+                </div>
+                <div class="box">
+                    <div class="back-logo"></div>
+                    <img class="img-logo" src="/img/Vector.png" alt="">
+                </div>
+            </div>
+            <p class="copyright">©2020SakaCoffeeStore</p>
+        </div>
+        <div class="right-foot-content">
+            <div class="content-detail">
+                <h2>Product</h2>
+                <ol>
+                    <li>Download</li>
+                    <li>Pricing</li>
+                    <li>Locations</li>
+                    <li>Contries</li>
+                    <li>Blog</li>
+                </ol>
+            </div>
+            <div class="content-detail">
+                <h2>Engage</h2>
+                <ol>
+                    <li>Coffee Shop ?</li>
+                    <li>FAQ</li>
+                    <li>About Us</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Service</li>
+                </ol>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

@@ -10,7 +10,7 @@
 }
 
 .side-content, .form-content, .left-foot-content, .right-foot-content {
-   flex: 1; 
+    flex: 1; 
 }
 
 .side-content img {
@@ -26,7 +26,7 @@
 .head-content {
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 3rem;
 }
 
 .logo-detail {
@@ -34,33 +34,31 @@
 }
 
 .logo-detail h2 {
-    font-size: 20px;
-    font-style: 1000px;
-    padding-left: 10px;
+    font-size: 1.4rem;
+    padding-left: .5rem;
 }
 
 .logo {
-    width: 50px;
+    width: 3rem;
 }
 
 .right-head-content {
-    background-color: #91C483;
-    padding: 13px 50px;
+    background-color: #FFBA33;
+    padding: .8rem 3rem;
     border-radius: 20px;
-    box-shadow: 0px 6px 20px rgba(51, 255, 129, 0.4);
+    box-shadow: 0px 6px 20px rgba(255, 224, 51, 0.4);
 }
 
 .right-head-content h3 {
     user-select: none;
-    color: black;
+    color: #6A4029;
 }
 
 .right-head-content:active {
-    background-color: #6bc253;
+    background-color: #FFBA33;
     position: relative;
     top: 2px;
 }
-
 
 .signup-content {
     flex-direction: column;
@@ -69,31 +67,34 @@
 
 .signup-content h1 {
     margin: 20px 0px;
-    font-size: 35px;
-    color: black;
+    font-size: 2.5rem;
+    color: #6A4029;
 }
 
 form {
     flex-direction: column;
     align-items: center;
-  }
-  
+}
 
 .full-width {
-    margin: 20px 0px;
+    margin: .8rem 0;
     width: 100%;
-  }
+}
 
 .input-div {
     width: 70%;
     margin: 10px;
-  }
+}
 
+.input-div {
+    width: 70%;
+    margin: .8rem;
+}
 
 .signup-content a {
-    font-size: 20px;
+    font-size: 1rem;
     text-decoration-line: underline;
-    color: black;
+    color: #6A4029;
     font-weight: 700;
 }
 
@@ -104,40 +105,40 @@ label {
 
 input {
     display: block;
-    height: 60px;
+    height: 3.5rem;
     width: 100%;
-    margin-top: 10px;
+    margin-top: .8rem;
     border-radius: 20px;
-    padding: 10px;
+    padding: .8rem;
     border: 2px solid #4F5665 ;
-  }
-  
+}
+
 .btn-signup {
     margin-top: 30px;
-    background-color: #91C483;
-    padding: 20px 50px;
+    background-color: #FFBA33;
+    padding: 1.5rem 3rem;
     border-radius: 20px;
-    box-shadow: 0px 6px 20px rgba(51, 255, 129, 0.4);
+    box-shadow: 0px 6px 20px rgba(255, 224, 51, 0.4);
     width: 70%;
 }
 
 .btn-signup:active {
-    background-color: #6bc253;
+    background-color: #FFBA33;
     position: relative;
     top: 2px;
 }
 
 .btn-signup h2 {
-    font-size: 20px;
+    font-size: 1.2rem;
     text-align: center;
-    color: black;
+    color: #6A4029;
     user-select: none;
 }
 
 .btn-google {
-    margin-top: 40px;
+    margin-top: 3rem;
     background-color: white;
-    padding: 20px 50px;
+    padding: 1.5rem 3rem;
     border-radius: 20px;
     box-shadow: 0px 6px 20px rgba(196, 196, 196, 0.67);
     width: 70%;
@@ -146,13 +147,12 @@ input {
 }
 
 .btn-google p {
-    margin-left: 15px;
+    margin-left: 1rem;
     font-weight: 1000;
     user-select: none;
 }
 
 .btn-google:active {
-    background-color: #91C483;
     position: relative;
     top: 2px;
 }
@@ -166,65 +166,85 @@ input {
     justify-content: space-around;
     align-items: center;
     border-radius: 20px;
-    left: 220px;
-    bottom: 150px;
+    left: 15rem;
+    bottom: 5rem;
 }
 
 .info-member {
-    padding: 40px;
+    padding: 3rem;
 }
 
 .info-member h2 {
     width: 75%;
-    font-size: 35px;
+    font-size: 2.5rem;
     font-weight: 500;
 }
 
 .info-member p {
-    margin-top: 10px;
-    font-size: 16px;
+    margin-top: .8rem;
+    font-size: 1rem;
     color: #4F5665;
 }
 
 .btn-create {
     margin-right: 40px;
-    background-color: #91C483;
+    background-color: #FFBA33;
     padding: 20px 50px;
     border-radius: 20px;
-    box-shadow: 0px 6px 20px rgba(51, 255, 129, 0.4);
-    width: 250px;
+    box-shadow: 0px 6px 20px rgba(255, 224, 51, 0.4);
+    width: 25%;
 }
 
 .btn-create:active {
-    background-color: #6bc253;
+    background-color: #FFBA33;
     position: relative;
     top: 2px;
 }
 
 .btn-create h2 {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
-    color: black;
+    color: #6A4029;
     text-align: center;
     user-select: none;
 }
 
+/* footer */
 .footer-container {
+    display: flex;
     justify-content: space-between;
+    background-color: #F8F8F8;
+}
+
+.logo-detail {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-detail img {
+    width: 2rem;
+}
+
+.logo-detail h2 {
+    font-size: 1rem;
+    padding-left: .5rem;
 }
 
 .left-foot-content {
-    margin: 70px;
+    margin: 5rem;
 }
 
 .about-detail {
-    margin-top: 20px;
+    margin-top: 1.8rem;
     width: 60%;
 }
 
 .about-detail p {
-    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 500;
     color: #4F5665;
+    margin: 2rem 0;
 }
 
 .sosmed-detail {
@@ -232,11 +252,11 @@ input {
     display: flex;
     margin-top: 20px;
     width: 30%;
-    justify-content: space-between;
+    gap: 2rem;
 }
 
 .back-logo {
-    background-color: black;
+    background-color: #6A4029;
     padding: 15px;
     position: relative;
     left: 2px;
@@ -253,34 +273,64 @@ input {
     object-fit: cover;
 }
 
-
 .copyright {
-    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 400;
     color: #AFB5C0;
     margin-top: 40px;
 }
 
 .right-foot-content {
-    margin-top: 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
+    gap: 9rem;
+    margin: 4rem;
 }
 
 .content-detail h2 {
-    font-size: 18px;
-    color: #0B132A;
+    font-size: 1.15rem;
     font-weight: 500;
+    color: #0B132A;
+    margin-bottom: 2rem;
 }
 
 .content-detail ol li{
-    font-size: 16px;
-    margin-top: 20px;
     list-style: none;
+    font-size: 1rem;
+    font-weight: 400;
     color: #4F5665;
+    line-height: 3rem;
 }
 
 .content-detail ol li:hover{
-    color: #91C483;
+    color: #FFCB65;
     cursor: pointer;
-    transition: 0.5s;
+}
+
+/* responsive */
+
+/* main content */
+@media screen and (max-width: 768px) {
+    .side-content {
+        display: none;
+    }
+
+    .get-member {
+        flex-direction: column;
+        justify-content: center;
+        left: 7rem;
+        bottom: -1rem;
+    }
+
+    .btn-create {
+        margin-right: 0;
+        margin-bottom: 2rem;
+        width: 75%;
+    }
+}
+/* footer */
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column-reverse;
+    }
 }
