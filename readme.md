@@ -43,9 +43,9 @@
 ## Screenshots
 
 <div align="center">
-    <img width="250" src="img/ss-homepage.png">   
-    <img width="250" src="img/ss-login.png">
-    <img width="250" src="img/ss-product.png">
+    <img width="250" src="img/ss-homepage.PNG">   
+    <img width="250" src="img/ss-login.PNG">
+    <img width="250" src="img/ss-product.PNG">
 </div>
 
 ## Previous Project
