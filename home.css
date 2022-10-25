@@ -193,8 +193,12 @@ main .container-fluid {
 
 /* quality section */
 .quality-content {
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
     background-color: white;
+}
+
+.quality {
+    padding-top: 6rem;
 }
 
 .quality img {
@@ -333,7 +337,7 @@ main .container-fluid {
     background-color: white;
 }
 .store-map .container {
-    padding-top: 10rem;
+    padding-top: 4rem;
 }
 
 .store-map h2 {
@@ -341,7 +345,7 @@ main .container-fluid {
     font-size: 2rem;
     font-weight: 500;
     color: #0B132A;
-    margin-top: 10rem;
+    margin-top: 1rem;
 }
 
 .store-map p {
@@ -353,7 +357,7 @@ main .container-fluid {
 }
 
 .store-map img {
-    margin-top: 10rem;
+    margin-top: 4rem;
     width: 100%;
 }
 
@@ -368,6 +372,10 @@ main .container-fluid {
     font-weight: 500;
     color: #0B132A;
     margin-top: 10rem;
+}
+
+.sponsor-img {
+    padding-top: 4rem;
 }
 
 /* customer */
@@ -637,11 +645,6 @@ footer .content .content-detail ol li:hover {
 @media screen and (max-width: 768px) {
     .store-map h2, .store-map p {
         padding: 0 4rem;
-    }
-
-    .store-map img  {
-        width: 20rem;
-        padding: 0 2rem;
     }
 }
 
