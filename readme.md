@@ -1,4 +1,4 @@
-<h1 align="center">Saka Coffee Shop</h1>
+<h1 align="left">Saka Coffee Shop</h1>
 <p align="left">
   Built with:
 </p>
