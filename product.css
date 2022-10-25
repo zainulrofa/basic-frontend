@@ -17,7 +17,7 @@ a {
 
 /* navbar */
 .navbar {
-    /* position: fixed; */
+    position: fixed;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -25,6 +25,7 @@ a {
     background-color: white;
     border-bottom: 0.5px solid #9F9F9F;
     padding: 2rem 0;
+    z-index: 1111;
 }
 
 .navbar .left-bar {
@@ -435,8 +436,7 @@ a {
 /* navbar */
 @media screen and (max-width: 768px) {
     .navbar {
-        /* position: fixed; */
-        display: flex;
+        position: static;
         align-items: baseline;
         justify-content: space-between;
         padding: 2rem 4rem;
