@@ -56,6 +56,9 @@ a {
     list-style: none;
     font-size: 1rem;
     font-weight: 600;
+}
+
+.navbar ol li a {
     color: #4F5665;
 }
 
@@ -100,7 +103,7 @@ a {
     top: -.5rem;
 }
 
-.navbar .right-bar .profile img {
+.navbar .right-bar img{
     border-radius: 50%;
 }
 
