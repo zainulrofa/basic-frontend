@@ -138,6 +138,10 @@ input {
     top: 2px;
 }
 
+.btn-signup a {
+    text-decoration: none;
+}
+
 .btn-signup h2 {
     font-size: 1.2rem;
     text-align: center;

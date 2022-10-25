@@ -359,6 +359,9 @@ a {
     top: 2px;
 }
 
+.btn-change-1 a {
+    text-decoration: none;
+}
 
 .btn-change-1 h4  {
     color: white;
