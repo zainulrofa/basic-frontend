@@ -14,7 +14,7 @@
 - [Requirements](#requirements)
 - [Usage](#usage-for-development)
 - [Screenshots](#screenshots)
-- [Related Project](#related-project-backend)
+- [Related Project](#previous-project)
 - [Contributors](#contributors)
 
 ## Introduction
