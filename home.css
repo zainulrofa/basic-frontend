@@ -197,6 +197,10 @@ main .container-fluid {
     background-color: white;
 }
 
+.quality img {
+    width: 100%;
+}
+
 .quality .quality-detail {
     display: flex;
     flex-direction: column;
@@ -328,6 +332,9 @@ main .container-fluid {
 .store-map {
     background-color: white;
 }
+.store-map .container {
+    padding-top: 10rem;
+}
 
 .store-map h2 {
     text-align: center;
@@ -347,6 +354,7 @@ main .container-fluid {
 
 .store-map img {
     margin-top: 10rem;
+    width: 100%;
 }
 
 /* our partner */
@@ -619,6 +627,10 @@ footer .content .content-detail ol li:hover {
     .search .search-bar {
         width: 100%;
     }
+
+    .status-img img {
+        top: 5rem;
+    }
 }
 
 /* store map */
@@ -628,7 +640,7 @@ footer .content .content-detail ol li:hover {
     }
 
     .store-map img  {
-        max-width: 80vh;
+        width: 20rem;
         padding: 0 2rem;
     }
 }
@@ -645,6 +657,10 @@ footer .content .content-detail ol li:hover {
 @media screen and (max-width: 768px) {
     .customer h2, .customer p  {
         padding: 0 4rem;
+    }
+
+    .customer-2, .customer-3 {
+        display: none;
     }
 }
 
