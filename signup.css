@@ -54,6 +54,11 @@
     color: #6A4029;
 }
 
+.right-head-content:hover, .btn-signup:hover, .btn-create:hover, .btn-google:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
 .right-head-content:active {
     background-color: #FFBA33;
     position: relative;
