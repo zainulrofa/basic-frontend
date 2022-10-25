@@ -44,8 +44,11 @@
 
 <div align="center">
     <img width="250" src="img/ss-homepage.PNG">   
-    <img width="250" src="img/ss-login.PNG">
+    <img width="250" src="img/ss-profile.PNG">
     <img width="250" src="img/ss-product.PNG">
+    <img width="250" src="img/ss-login.PNG">
+    <img width="250" src="img/ss-signup.PNG">
+    
 </div>
 
 ## Previous Project
